@@ -1,0 +1,143 @@
+* {
+    font-family: lucida sans regular;   
+}
+
+body{
+    margin: 100px;
+    padding: auto;
+    width: 1280px;
+    height: 100%;
+}
+
+img {
+    width: 300px;
+    height: 250px;
+}
+
+.contenedor {
+    top: 0px;
+    left: 0px;
+    width: 1280px;
+    height: 73px;
+    background: #000000 0% 0% no-repeat padding-box;
+}
+
+.contenedor h1 {
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 400px;
+    padding: 20px;
+    font-size: xx-large;
+    
+}
+
+header {
+    top: 73px;
+    left: 0px;
+    height: 727px;
+    width: 1280px;
+}
+
+.header {
+    background: transparent url(../imgs/iguananaranja.png) 0% 0% no-repeat padding-box;
+    opacity: 1;
+    background-color: #000000;
+    border-bottom: 6px solid orange;
+}
+
+.boxes {
+    display: flex;
+    justify-content: center;
+    top: 800px;
+    left: 0px;
+    width: 1280px;
+    height: 348px;
+    background: #000000 0% 0% no-repeat padding-box;
+    opacity: 1;   
+}
+
+.box {
+    width: 25%;
+    padding: 50px;
+}
+
+.boxes p {
+    color: #fff;
+}
+
+.características {
+    background: #1e1a13 0% 0% no-repeat padding-box;
+    opacity: 0.98;
+    top: 1141px;
+    left: 0px;
+    height: 348px;
+    width: 1280px;
+    gap: 30px;
+    padding-top: 10px;
+}
+
+.características h2 {
+    text-align: center;
+    text-transform: uppercase;
+    color: #e6c532;
+    font-size: xx-large;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+   
+}
+
+.flex div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: x-large;
+    color: #e6c532;
+}
+
+.flex i {
+    color: #fff;
+    font-size: 40px;
+}
+
+.section-class {
+    top: 1488px;
+    left: 0px;
+    width: 1280px;
+    height: 348px;
+    background: #000000 0% 0% no-repeat padding-box;
+    opacity: 0.96;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 30px 10px;
+}
+
+footer {
+    background: #1e1413 0% 0% no-repeat padding-box;
+    opacity: 0.94px;
+    top: 1835px;
+    left: 0px;
+    width: 1280px;
+    height: 102px;
+    padding-top: 10px;
+}
+
+.footer a {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: #fff;
+    font-size: large;
+    padding: 30px;
+}
